@@ -1,5 +1,4 @@
 ﻿using JWTs.Models;
-using JWTs.Models.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;

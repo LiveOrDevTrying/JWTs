@@ -13,6 +13,7 @@
     <PackageTags>JWT JWTs JWT.NET json web token generate validate tokens refresh tokens authorization authentication jwt.net liveordevtrying pixelhorrorstudios pixel horror studios claims</PackageTags>
     <PackageIcon>Logo.png</PackageIcon>
     <ApplicationIcon>Logo.ico</ApplicationIcon>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

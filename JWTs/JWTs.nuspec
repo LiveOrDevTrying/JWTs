@@ -15,10 +15,8 @@
     <copyright>Copyright 2021</copyright>
     <tags>JWT JWTs JWT.NET json web token generate validate tokens refresh tokens authorization authentication jwt.net liveordevtrying pixelhorrorstudios pixel horror studios claims</tags>
 	<dependencies>
-	  <group targetFramework="netstandard2.1">
-		  <dependency id="System.ComponentModel.Annotations" version="5.0" />
-		  <dependency id="System.IdentityModel.Tokens.Jwt" version="6.8" />
-	  </group>
+	    <dependency id="System.ComponentModel.Annotations" version="5.0" />
+	    <dependency id="System.IdentityModel.Tokens.Jwt" version="6.8" />
 	</dependencies>
   </metadata>
   <files>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JWTs.Models.Interfaces
+namespace JWTs.Models
 {
     public interface IRefreshToken
     {

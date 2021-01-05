@@ -1,5 +1,4 @@
 ﻿using JWTs.Models;
-using JWTs.Models.Interfaces;
 using JWTs.Services;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
