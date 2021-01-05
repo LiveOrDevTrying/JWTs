@@ -1,0 +1,2 @@
+# JWTs
+JWTs is a simple library for generating and validating JWT tokens and Refresh Tokens. Refresh Tokens are dependent on a database / memory cache and an interface for a simple DAL for storing refresh tokens is included. JWTs can be generated with custom claims, and a DAL is only required when issuing Refresh Tokens. This library is independent of any overarching entities such as Application User and Client. This library is used in OAuthServer.NET.
