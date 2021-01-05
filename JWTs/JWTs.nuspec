@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Rob Engel - LiveOrDevTrying</authors>
+    <owners>Rob Engel - LiveOrDevTrying - Pixel Horror Studios</owners>
+	<license type="expression">MIT</license>
+	<projectUrl>https://github.com/liveordevtrying/jwts</projectUrl>
+	<icon>Logo.png</icon>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>JWTs is a simple library for generating and validating JWT tokens and Refresh Tokens. Refresh Tokens are dependent on a database / memory cache and an interface for a simple DAL for storing refresh tokens is included. JWTs can be generated with custom claims, and a DAL is only required when issuing Refresh Tokens. This library is independent of any overarching entities such as Application User and Client. This library is used in OAuthServer.NET.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>JWT JWTs JWT.NET json web token generate validate tokens refresh tokens authorization authentication jwt.net liveordevtrying pixelhorrorstudios pixel horror studios claims</tags>
+	<dependencies>
+	  <group targetFramework="netstandard2.1">
+		  <dependency id="System.ComponentModel.Annotations" version="5.0" />
+		  <dependency id="System.IdentityModel.Tokens.Jwt" version="6.8" />
+	  </group>
+	</dependencies>
+  </metadata>
+  <files>
+    <file src="Logo.png" target="" />
+  </files>
+</package>
