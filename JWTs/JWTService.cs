@@ -82,7 +82,6 @@ namespace JWTs
             try
             {
                 var tokenHandler = new JwtSecurityTokenHandler();
-                // Random Guid is for Implicit clients that do not verify signing key
                 var key = !string.IsNullOrWhiteSpace(signingKey) ? Encoding.UTF8.GetBytes(signingKey) : Encoding.UTF8.GetBytes(Guid.NewGuid().ToString());
 
                 tokenHandler.ValidateToken(token, new TokenValidationParameters
